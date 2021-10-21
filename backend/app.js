@@ -28,9 +28,7 @@ app.use("/api/v1", user);
 app.use("/api/v1", order);
 app.use("/api/v1", payment);
 
-app.get('/',(req, res) => {
-  res.send("hello from db it's working");
-})
+
 
 app.use(express.static(path.join(__dirname, "../frontend/build")));
 
