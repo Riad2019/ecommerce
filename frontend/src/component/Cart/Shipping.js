@@ -94,7 +94,7 @@ const Shipping = ({ history }) => {
                 required
                 value={phoneNo}
                 onChange={(e) => setPhoneNo(e.target.value)}
-                size="10"
+                size="11"
               />
             </div>
 
